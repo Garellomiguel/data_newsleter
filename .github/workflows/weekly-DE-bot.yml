@@ -1,4 +1,4 @@
-name: Weekly Telegram Bot
+name: Weekly DE Telegram Bot
 
 on:
   workflow_dispatch:
