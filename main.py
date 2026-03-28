@@ -13,12 +13,12 @@ Strict rules:
 - Return only 3 to 6 items
 - If there are not enough relevant stories, return fewer items
 - If there are no relevant stories, return an empty list
-- Do NOT include content older than 7 days
+- Do NOT include content older than 15 days
 - Do NOT include opinions, explanations, or meta commentary
 - Do NOT include phrases like "low signal", "this week", or suggestions
 - Do NOT add any text outside the required format
 Output format (in Spanish):
-- First line: "Resumen semanal de data engineering"
+- First line: "Resumen de data engineering"
 - Then ONLY a bullet list
 - Each bullet must contain:
   - Short title
