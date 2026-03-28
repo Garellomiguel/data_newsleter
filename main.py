@@ -6,7 +6,7 @@ def main():
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
 
     if not token:
-        raise ValueError("Falta TELEGRAM_BOT_TOKEN")
+        raise ValueError("Falta BOT_TOKEN")
 
     if not chat_id:
         raise ValueError("Falta TELEGRAM_CHAT_ID")
