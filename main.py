@@ -2,7 +2,7 @@ import os
 import requests
 
 def main():
-    token = os.getenv("TELEGRAM_BOT_TOKEN")
+    token = os.getenv("BOT_TOKEN")
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
 
     if not token:
